@@ -1,0 +1,38 @@
+h2{
+    color:  #ffa800;
+    text-align: center;
+}
+
+p{
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 395px;
+}
+
+img:hover{
+    box-shadow: 5px 5px 10px rgb(190, 190, 190);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title h3{
+    padding-top: 75px;
+    color: #ffa800;
+}
+
+.video{
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+    width:853px; 
+    height:480px;
+}

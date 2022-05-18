@@ -1,0 +1,41 @@
+<h2>Cadastre seu contato</h2>
+<form (ngSubmit)="handleSubmit()">
+
+    <label for="nome">Nome:</label>
+    <input type="text" placeholder="Nome" name="nome"
+    [(ngModel)]="contato.nome">
+
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Email" name="email"
+    [(ngModel)]="contato.email">
+
+    <label for="telefone">Telefone:</label>
+    <input type="telefone" placeholder="Telefone" name="telefone" 
+    [(ngModel)]="contato.telefone">
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea name="areaTexto" cols="30" rows="10" placeholder="Opcional"
+    [(ngModel)]="contato.texto"></textarea>
+
+    <div class="input">
+        <input name="botao" type="submit" value="Cadastrar Contato">
+    </div>
+</form>
+
+<br><br><br>
+<table>
+    <thead>
+        <tr>
+            <th>Nome:</th>
+            <th>Mensagem:</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let p of posts">
+            <td>{{p.nome}}</td>
+            <td>{{p.texto}}</td>
+            <td><button (click)="handleDelete(p.id)">Excluir</button></td>
+        </tr>
+    </tbody>
+</table>

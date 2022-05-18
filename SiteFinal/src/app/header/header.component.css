@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+    overflow: hidden;
+}
+
+h2{
+    color: #ffa800;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.link{
+    float: right;
+}
+
+.link a{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color: #ffa800;
+    text-decoration: underline;
+    transition: 0.3s;
+}

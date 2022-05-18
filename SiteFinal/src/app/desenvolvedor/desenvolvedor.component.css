@@ -1,0 +1,27 @@
+form{
+    width: 800px;
+}
+
+h2{
+    color: #ffa800;
+    text-align: center;
+
+}
+
+legend{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.label{
+    font-weight: bold;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

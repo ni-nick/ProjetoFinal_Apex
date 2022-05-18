@@ -1,0 +1,30 @@
+.escritas p{
+    color: white;
+    transition: 0.3s;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+}
+
+.escritas p:hover{
+    color: #ffa800;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.escritas img{
+    width: 10px;
+    height: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.links img{
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}

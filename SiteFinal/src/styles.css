@@ -1,0 +1,20 @@
+html{
+    font-family: Cambria;
+}
+
+body{
+    margin: auto;
+}
+
+
+app-root{
+    display: grid;
+    grid-gap: 0.1em;
+    grid-template-areas:  
+    "header header header header"
+    "nav nav nav nav"
+    "main main main aside"
+    "footer footer footer footer";
+    grid-template-columns: auto auto auto 29.5%;
+    grid-template-rows: auto auto auto auto;
+}

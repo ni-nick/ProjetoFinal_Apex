@@ -1,0 +1,13 @@
+img{
+    display: inline-block;
+    width: 400px;
+    height: 295px;
+    opacity: 65%;
+    transition: 0.7s;
+}
+
+img:hover{
+    opacity: 97%;
+    transition: 0.7s;
+}
+
