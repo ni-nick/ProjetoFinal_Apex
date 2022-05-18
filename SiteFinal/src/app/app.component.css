@@ -9,9 +9,9 @@ app-header{
 app-nav{
     text-align: center;
     grid-area: nav;
-    height: 50vh;
+    height: 55vh;
     background-color: black;
-    padding: 20px;
+    padding: 10px;
 }
 
 app-aside{
